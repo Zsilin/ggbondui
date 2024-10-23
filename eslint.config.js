@@ -20,5 +20,6 @@ export default antfu({
     "vue/one-component-per-file": "off",
     "style/quotes": "off",
     "style/semi": "off",
+    "jsonc/sort-keys": "off",
   },
 });

@@ -1,10 +1,14 @@
 {
   "name": "ggbondui",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "git:push": "git add -A && git cz && git pull && git push"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +16,17 @@
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
     "@types/node": "^22.7.9",
+    "commitizen": "^4.3.1",
+    "cz-customizable": "^7.2.1",
     "eslint": "^9.13.0",
     "typescript": "^5.6.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./.cz-config.cjs"
+    }
   }
 }
