@@ -9,5 +9,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/tsconfig": "^0.5.1",
+    "@vueuse/core": "^11.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-dts": "^4.3.0",
+    "vue": "^3.5.12",
+    "vue-tsc": "^2.1.6"
   }
 }

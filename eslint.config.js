@@ -21,5 +21,6 @@ export default antfu({
     "style/quotes": "off",
     "style/semi": "off",
     "jsonc/sort-keys": "off",
+    "perfectionist/sort-imports": "off",
   },
 });
